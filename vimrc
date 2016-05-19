@@ -90,7 +90,8 @@ let Tlist_Show_One_File=0
 let Tlist_Exit_OnlyWindow=1
 let Tlist_Use_Left_Window=1
 let Tlist_File_Fold_Auto_Close=1
-nmap <Leader>tl :TlistToggle<CR>
+let g:winManagerWindowLayout='FileExplorer|TagList'
+nmap wm :WMToggle<CR>
 "Powerline设置
 let g:Powerline_symbols='fancy'
 set laststatus=2
